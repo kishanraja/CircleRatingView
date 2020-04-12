@@ -13,6 +13,7 @@
 		5D4D888324431AB50076E4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4D888224431AB50076E4BE /* Assets.xcassets */; };
 		5D4D888624431AB50076E4BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4D888424431AB50076E4BE /* LaunchScreen.storyboard */; };
 		5D4D888B24431B830076E4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4D887924431AB40076E4BE /* AppDelegate.swift */; };
+		5D4D88B0244330270076E4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4D88AF244330270076E4BE /* Assets.xcassets */; };
 		5D98B3F72313BB1C00B429DA /* CircleRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D98B3F62313BB1C00B429DA /* CircleRatingView.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		5D4D888224431AB50076E4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D4D888524431AB50076E4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D4D888724431AB50076E4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4D88AF244330270076E4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D98B3F62313BB1C00B429DA /* CircleRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 			children = (
 				5D4263F7230AC6BD001963F5 /* Info.plist */,
 				5D98B3F62313BB1C00B429DA /* CircleRatingView.swift */,
+				5D4D88AF244330270076E4BE /* Assets.xcassets */,
 			);
 			path = CircleRatingView;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D4D88B0244330270076E4BE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
