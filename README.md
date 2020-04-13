@@ -1,4 +1,3 @@
-# CircleRatingView
 # CircleRatingView, a circular star rating control for iOS
 It shows a star rating and takes rating input from the user. CircleRatingView is a subclass of a UIView
 
