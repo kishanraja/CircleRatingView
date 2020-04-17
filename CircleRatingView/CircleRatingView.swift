@@ -8,20 +8,20 @@
 
 import UIKit
 
-class CircleRatingView: UIView {
+public class CircleRatingView: UIView {
     
     //MRAK: Open variable
-    var emptyImage: UIImage = #imageLiteral(resourceName: "Empty_start")
-    var fullImage: UIImage = #imageLiteral(resourceName: "Full_start")
-    var duration: Double = 0.5
-    var defaultRate: Int = 1
-    var lineColor: UIColor = .yellow
-    var rate: Int {
+    public var emptyImage: UIImage = #imageLiteral(resourceName: "Empty_start")
+    public var fullImage: UIImage = #imageLiteral(resourceName: "Full_start")
+    public var duration: Double = 0.5
+    public var defaultRate: Int = 1
+    public var lineColor: UIColor = .yellow
+    public var rate: Int {
         return self.arrButton.filter({$0.isSelected}).count
     }
-    var isLineView: Bool = false
-    var isEditable: Bool = true
-    var iconSize: CGSize = CGSize(width: 50, height: 50)
+    public var isLineView: Bool = false
+    public var isEditable: Bool = true
+    public var iconSize: CGSize = CGSize(width: 50, height: 50)
     
     //MRAK: Non Open variable
     private var arrButton: [UIButton] = []
@@ -31,12 +31,12 @@ class CircleRatingView: UIView {
     private var numberOfStar: Int = 5
     
     //MARK: Life cycle
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
 //        self.backgroundColor = .purple
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         super.draw(rect)
         //for circuler view
         let radius = (self.frame.size.height / 2)
@@ -96,7 +96,7 @@ class CircleRatingView: UIView {
     
     //MARK: Custom method
     //Fill start
-    func fillStar(btnIndex : Int) {
+    private func fillStar(btnIndex : Int) {
         var timeOffset: Double = 0
         
         for (index, btn) in self.arrButton.enumerated() {
