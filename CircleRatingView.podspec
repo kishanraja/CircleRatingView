@@ -16,7 +16,11 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CircleRatingView"
+<<<<<<< HEAD
   spec.version      = "2.0.0"
+=======
+  spec.version      = "2.0.0"
+>>>>>>> 36f7556dab2dd06f72a1743fc36c2d07e9b187e2
   spec.summary      = "A CocoaPods library written in Swift"
 
   # This description is used to generate tags and improve search results.
